@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #293264;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  min-width: 360px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}

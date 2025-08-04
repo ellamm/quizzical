@@ -1,0 +1,40 @@
+.shape-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10vw;
+  z-index: -1;
+}
+
+.shape-down {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 10vw;
+}
+
+.btn {
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 28px;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: #d6d6d6;
+  color: #8c8c8c;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (width<1480px) {
+  .shape-down {
+    margin-top: 10px;
+  }
+}

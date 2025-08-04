@@ -1,0 +1,44 @@
+.selectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.1em;
+}
+
+.selectContainer label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-right: 1.5em;
+  width: 100%;
+}
+
+.selectContainer select,
+.selectContainer input {
+  border-radius: 0.25em;
+  border: none;
+  box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.2);
+  color: #293264;
+  cursor: pointer;
+  font: inherit;
+  height: 3em;
+  padding: 0 1em;
+  min-width: 360px;
+  width: 100%;
+}
+
+.selectContainer input {
+  padding: 0;
+}
+
+@media (width<530px) {
+  .selectContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+  }
+
+  .selectContainer label {
+    margin: 0 0 0.4em 0;
+  }
+}

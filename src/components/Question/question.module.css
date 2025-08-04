@@ -1,0 +1,51 @@
+.questionContainer {
+  width: 100%;
+}
+
+.questionTitle {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.answerBtn {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #293264;
+  border: 1px solid #4d5b9e;
+  border-radius: 8px;
+  background: transparent;
+  padding: 4px 12px;
+  margin-bottom: 1em;
+}
+
+.answersContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  width: 100%;
+  border-bottom: 1px solid #dbdef0;
+}
+
+.selectedAnswer {
+  background-color: #d6dbf5;
+}
+
+.correctAnswer {
+  background-color: #94d7a2;
+  border: none;
+}
+
+.wrongAnswer {
+  background-color: #f8bcbc;
+  opacity: 0.5;
+  border: none;
+}
+
+.notSelectedAnswer {
+  opacity: 0.5;
+}
