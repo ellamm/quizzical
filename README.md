@@ -4,7 +4,7 @@ A dynamic, interactive trivia application built with React, showcasing advanced 
 
 ## 🚀 Live Demo
 
-[Link to Live Demo]()
+[Link to Live Demo](https://quizzical-mm.netlify.app/)
 
 ## 🎯 Overview
 
